@@ -1,0 +1,87 @@
+body {
+	background: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, a, img, form, button {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.header {
+	
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	margin-top: 42px;
+}
+.logo {
+
+}
+.phone {
+	font-size: 12px;
+	margin-left: auto;
+}
+.menu {
+	display: flex;
+	margin-left: 160px;
+}
+.menu li a {
+	color: white;
+	padding: 12px 0;
+}
+.menu li {
+	font-size: 12px;
+	margin-right: 25px;
+}
+h1 h2 h3 h4 h5 h6 {
+	margin: 0;
+	padding: 0;
+}
+.offer-content h1 {
+	font-size: 37px;
+	font-weight: 900;
+
+}
+.offer-content p {
+	font-size: 16px;
+	font-weight: 200;
+	margin-top: 19px;
+}
+.offer-content a {
+	background: #faf04b;
+	color: #000;
+	font-weight: 900;
+	font-size: 14px;
+	width: 218px;
+	display: block;
+	text-align: center;
+	padding: 17px 0;
+	margin-top: 35px;
+}
+.triangles {
+	background: url('../img/poly.png');
+	width:380px;
+	height: 379px;
+	margin-left: auto;
+	margin-right: 81px;
+}
+.offer {
+	display: flex;
+	align-items: center;
+	margin-top: 106px;
+}
